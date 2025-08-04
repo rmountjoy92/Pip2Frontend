@@ -1,1 +1,18 @@
 // app global css in SCSS form
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 480px;
+  height: 640px;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+html, body {
+  overscroll-behavior-x: none;
+}
+
+.q-dialog, .q-dialog__inner, .q-dialog__backdrop {
+  max-width: 480px !important;
+}

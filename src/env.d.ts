@@ -3,5 +3,8 @@ declare namespace NodeJS {
     NODE_ENV: string;
     VUE_ROUTER_MODE: 'hash' | 'history' | 'abstract' | undefined;
     VUE_ROUTER_BASE: string | undefined;
+    SERVER_URL: string;
+    SERVER_API_PATH: string;
+    SERVER_API_URL;
   }
 }
